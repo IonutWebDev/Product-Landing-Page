@@ -1,0 +1,56 @@
+body{
+    background-image: url("https://img4.goodfon.com/wallpaper/nbig/4/58/iaitsa-shokolad-shokoladnye-iaitsa-belyi-fon-konfety.jpg");
+    background-size: cover;
+    font-family: 'Oswald', Roboto;
+    transition: ease all .4s;
+  }
+
+@media(max-width: 1340px){
+    body{
+        background-position: right 55% bottom 45%;
+    }
+}
+
+/* LOGO */
+#header-img{
+    width: 8em;
+}
+    
+.btn{
+    padding: 0 20px;
+    font-size: 1em;
+    font-weight: 800;
+    border: 3px black solid;
+    border-radius: 3px;
+    background: transparent;
+    cursor: grab;
+  }
+  
+li{
+    list-style: none;
+  }
+
+#page-content{
+    margin-bottom: 5em;
+}
+
+section > h2{
+    font-weight: 700;
+}
+
+input{
+    width: 250px;
+}
+
+/* THE YOUTUBE VIDEO */
+iframe{
+    width: 450px;
+    height: 250px;
+    transition: ease all .4s;
+  }
+  @media(min-width: 768px){
+      iframe{
+          width: 650px;
+          height: 350px;
+      }
+  }
